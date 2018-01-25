@@ -13,35 +13,35 @@ Description: As a brand new member of Santo Domingo’s police departments’ so
 
 * POST /incidents
 ###  Samples:
-### ``` http://localhost:6676/api/incidents```
+### ``` http://localhost:9677/api/incidents```
 #
 
 * GET incidents
 ### ``` incidents?Skip=0&Take=3&Sort=Asc|Desc```
 ###  Samples:
-###  ``` http://localhost:6676/api/incidents?Skip=0&Take=3&Sort=Asc```
+###  ``` http://localhost:9677/api/incidents?Skip=0&Take=3&Sort=Asc```
 #
 
 * POST /incidents/:incidentId/archive
 ###  Samples:
-### ``` http://localhost:6676/api/incidents/{incidentId}/archive```
+### ``` http://localhost:9677/api/incidents/{incidentId}/archive```
 
 #
 * GET /localities
 * GET /localities?Skip=0&Take=3&Sort=Asc|Desc
 ###  Samples:
-###  ``` http://localhost:6676/api/localities```
-###  ``` http://localhost:6676/api/localities?Skip=0&Take=3&Sort=Desc```
+###  ``` http://localhost:9677/api/localities```
+###  ``` http://localhost:9677/api/localities?Skip=0&Take=3&Sort=Desc```
 #
 
 * GET /localities/:localityId
 ###  Samples:
-###  ``` http://localhost:6676/api/localities/{localityId}```
+###  ``` http://localhost:9677/api/localities/{localityId}```
 #
 
 * POST /localities
 ###  Samples:
-###  ``` http://localhost:6676/api/localities```
+###  ``` http://localhost:9677/api/localities```
 
 * For run Unit test, please execute the command:
 ###  ``` Open Visual Studio 2017 Go to Menu - > Test -> Run -> All Tests``
