@@ -14,8 +14,6 @@ Description: As a brand new member of Santo Domingo’s police departments’ so
 * POST /incidents
 ###  Samples:
 ### ``` http://localhost:6676/api/incidents```
-
-### ``` Use the insertIncidents.html file to support with the POST.```
 #
 
 * GET incidents
@@ -27,8 +25,6 @@ Description: As a brand new member of Santo Domingo’s police departments’ so
 * POST /incidents/:incidentId/archive
 ###  Samples:
 ### ``` http://localhost:6676/api/incidents/{incidentId}/archive```
-
-``` Use the archiveIncidents.html file to support with the POST.```
 
 #
 * GET /localities
@@ -47,7 +43,6 @@ Description: As a brand new member of Santo Domingo’s police departments’ so
 ###  Samples:
 ###  ``` http://localhost:6676/api/localities```
 
-``` Use the insertLocalities.html file to support with the POST.```
 * For run Unit test, please execute the command:
 ###  ``` Open Visual Studio 2017 Go to Menu - > Test -> Run -> All Tests``
 
@@ -67,9 +62,6 @@ Description: As a brand new member of Santo Domingo’s police departments’ so
 	``` Run scriptdb.sql on SQL DataBase```
 	#
 	``` Verify ..\Backend-Developer-Test-Version\App.Web\Web.config file and check the connectionString ```
-	### <connectionStrings>
-    <add name="DbTestEntities" connectionString="metadata=res://*/Models.DbTestModel.csdl|res://*/Models.DbTestModel.ssdl|res://*/Models.DbTestModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=DbTest;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
-  </connectionStrings>
 
 3. Start the project
 
