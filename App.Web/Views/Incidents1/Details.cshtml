@@ -1,0 +1,50 @@
+﻿@model App.Model.Models.Incident
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Incident</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kind)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kind)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocationId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocationId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HappenedAt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HappenedAt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsArchive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsArchive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

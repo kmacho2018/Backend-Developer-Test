@@ -1,0 +1,10 @@
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\obj\Debug\App.Model.csproj.CoreCompileInputs.cache
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\App.Model.dll.config
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\App.Model.dll
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\App.Model.pdb
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\EntityFramework.dll
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\EntityFramework.xml
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\obj\Debug\App.Model.dll
+C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Model\obj\Debug\App.Model.pdb

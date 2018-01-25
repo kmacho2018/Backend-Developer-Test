@@ -1,0 +1,13 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  app.web:
+    build:
+      context: C:\Users\kmachoLaptop\Desktop\New folder (3)\Backend-Developer-Test\App.Web
+      dockerfile: Dockerfile
+    image: app.web
+    ports:
+    - 80/tcp
+version: '3.0'
